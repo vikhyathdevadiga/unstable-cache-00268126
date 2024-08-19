@@ -14,5 +14,4 @@ const fetchCachedData = unstable_cache(async () => {
         revalidate: 60, 
     }
 );
-
 export { fetchCachedData };
