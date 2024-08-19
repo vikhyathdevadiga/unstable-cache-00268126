@@ -1,5 +1,4 @@
 // app/lib/data.ts
-
 import { unstable_cache } from 'next/cache';
 import { sql } from "@vercel/postgres";
 
