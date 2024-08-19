@@ -10,7 +10,7 @@ const fetchCachedData = unstable_cache(async () => {
     ['cars'],
     {
         tags: ["cached-user-tag"],
-        revalidate: 60, 
+        revalidate: 30, 
     }
 );
 export { fetchCachedData };
