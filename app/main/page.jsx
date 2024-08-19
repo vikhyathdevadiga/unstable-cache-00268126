@@ -3,7 +3,7 @@ import { fetchCachedData } from '../lib/data'
 const DataPage = async () => {
     try {
         const data = await fetchCachedData(); // Call the cached API function
-        console.log(data)
+        console.log("Data => ", data)
 
         return (
             <div>
