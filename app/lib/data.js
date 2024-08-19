@@ -5,7 +5,7 @@ import { sql } from "@vercel/postgres";
 
 const fetchCachedData = unstable_cache(async () => {
     const { rows } = await sql`SELECT * from CARS`
-    console.log("FUNCTION CALLED")
+    console.log("Function Called")
     return rows;
     }, 
     ['cars'],
