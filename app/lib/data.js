@@ -7,7 +7,7 @@ const fetchCachedData = unstable_cache(async () => {
     console.log("Function Called")
     return rows;
     }, 
-    ['cars'],
+    // ['cars'],
     {
         tags: ["cached-user-tag"],
         revalidate: 30, 
